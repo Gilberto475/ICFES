@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rojo">#C72927</color>
+    <color name="azul">#0287A4</color>
+    <color name="gris">#e8e8e8</color>
+    <color name="ingles">#FFFBAE</color>
+    <color name="sociales">#FFABC7</color>
+    <color name="matematicas">#FFCC8F</color>
+    <color name="naturales">#ABFFC5</color>
+    <color name="lectura">#D0ABFF</color>
+
+</resources>
