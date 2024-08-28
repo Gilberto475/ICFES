@@ -1,6 +1,5 @@
 package com.example.ej3;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,29 +11,31 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MenuPruebas extends AppCompatActivity {
+public class tip2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_menu_pruebas);
+        setContentView(R.layout.activity_tip2);
 
-        Button pruebas =findViewById(R.id.simulacross);
-        pruebas.setOnClickListener(new View.OnClickListener() {
+        Button tip11 =findViewById(R.id.atras);
+        tip11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MenuPruebas.this, Simulacros.class);
+                Intent intent = new Intent(tip2.this, tip1.class);
                 startActivity(intent);
             }
         });
-        Button tipss =findViewById(R.id.tips);
-        tipss.setOnClickListener(new View.OnClickListener() {
+
+
+        Button tips3 =findViewById(R.id.adelante);
+        tips3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(MenuPruebas.this, tip1.class);
+                Intent intent = new Intent(tip2.this, tip3.class);
                 startActivity(intent);
             }
         });

@@ -9,133 +9,84 @@
     tools:context=".Simulacros">
 
     <ImageButton
-        android:id="@+id/lecturac"
-        android:layout_width="183dp"
-        android:layout_height="165dp"
+        android:id="@+id/lecturacritica"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/a_p"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.195"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477"
+        app:layout_constraintVertical_bias="0.581"
         app:srcCompat="@drawable/lectcritica" />
 
-    <Button
-        android:id="@+id/lecturacritica"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/lectura"
-        android:text="LEC.CRITICA"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.18"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609" />
-
-    <Button
-        android:id="@+id/socialess"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/sociales"
-        android:text="C.SOCIALES"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
-
     <ImageButton
-        android:id="@+id/naturales"
-        android:layout_width="183dp"
-        android:layout_height="165dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.798"
-        app:srcCompat="@drawable/naturales" />
-
-    <ImageButton
-        android:id="@+id/sociales"
-        android:layout_width="183dp"
-        android:layout_height="165dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477"
-        app:srcCompat="@drawable/sociales" />
-
-    <ImageButton
-        android:id="@+id/matematicas"
-        android:layout_width="183dp"
-        android:layout_height="165dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.929"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132"
-        app:srcCompat="@drawable/matematicas" />
-
-    <Button
-        android:id="@+id/ingless"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/ingles"
-        android:text="INGLES"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.187"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
-
-    <ImageButton
-        android:id="@+id/ingles"
-        android:layout_width="183dp"
-        android:layout_height="165dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132"
-        app:srcCompat="@drawable/ingles2" />
-
-    <Button
-        android:id="@+id/matematicass"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/matematicas"
-        android:text="MATEMATICAS"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.313" />
-
-    <Button
         android:id="@+id/naturaless"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/naturales"
-        android:text="C.NATURALES"
-        android:textColor="@color/black"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/a_p"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.886" />
+        app:layout_constraintVertical_bias="0.816"
+        app:srcCompat="@drawable/naturales" />
+
+    <ImageButton
+        android:id="@+id/sociales"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/a_p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/sociales" />
+
+    <ImageButton
+        android:id="@+id/matematicas"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/a_p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/matematicas" />
+
+    <ImageButton
+        android:id="@+id/ingless"
+
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/a_p"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/ingles2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="88dp"
+        android:autoSizeTextType="uniform"
+        android:text="Que prueba deseas hacer?"
+        android:textAlignment="center"
+        android:textColor="@color/azul"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
