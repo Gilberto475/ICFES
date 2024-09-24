@@ -45,7 +45,7 @@
         android:layout_height="48dp"
         android:background="@drawable/edittext"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:rotation="360"
         android:rotationY="360"
         android:hint="Correo Electronico"
@@ -92,10 +92,10 @@
         android:layout_height="48dp"
         android:background="@drawable/edittext"
         android:ems="10"
-        android:inputType="text"
         android:rotation="360"
         android:rotationY="360"
         android:hint="Contraseña"
+        android:inputType="textPassword"
         android:textColorHint="@color/rojo"
         app:circularflow_angles="16"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -117,5 +117,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.439"
         app:srcCompat="@drawable/holaggggg" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

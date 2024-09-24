@@ -21,14 +21,27 @@ public class Simulacros extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_simulacros);
        ImageButton prueba1;
-        prueba1 = findViewById(R.id.sociales);
+        prueba1 = findViewById(R.id.socialess);
 
 
         prueba1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Simulacros.this, Prueba1.class);
+                Intent intent = new Intent(Simulacros.this, PruebaSociales.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageButton natural;
+        natural = findViewById(R.id.naturaless);
+
+
+        natural.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Simulacros.this, PruebaNaturales.class);
                 startActivity(intent);
             }
         });

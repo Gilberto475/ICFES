@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "700775244202",
+    "project_id": "icfes-7f09b",
+    "storage_bucket": "icfes-7f09b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700775244202:android:3657f83e9cdfcd05994bd3",
+        "android_client_info": {
+          "package_name": "com.example.ej3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDihUtyNLf8pHAez3keFzo5RRInsUuy6O4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
