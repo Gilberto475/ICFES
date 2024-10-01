@@ -20,11 +20,11 @@ public class MenuPruebas extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_menu_pruebas);
 
-        // Obtener el nombre pasado desde la actividad anterior
+
         Intent intent = getIntent();
         String nombre = intent.getStringExtra("nombre");
 
-        // Configurar el saludo en el TextView
+
         TextView saludoTextView = findViewById(R.id.textView);
         if (nombre != null && !nombre.isEmpty()) {
             saludoTextView.setText("Hola " + nombre);

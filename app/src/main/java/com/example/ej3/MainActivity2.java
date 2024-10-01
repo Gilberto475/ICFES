@@ -43,11 +43,11 @@ public class MainActivity2 extends AppCompatActivity {
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
-                        String nombre = email.split("@")[0]; // Obtén el nombre a partir del correo electrónico
+                        String nombre = email.split("@")[0];
 
                         Toast.makeText(MainActivity2.this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(MainActivity2.this, MenuPruebas.class);
-                        intent.putExtra("nombre", nombre); // Envía el nombre al MenuPruebas
+                        intent.putExtra("nombre", nombre);
                         startActivity(intent);
                         finish();
                     } else {
