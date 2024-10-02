@@ -11,7 +11,7 @@
         android:layout_width="306dp"
         android:layout_height="219dp"
         android:autoSizeTextType="uniform"
-        android:text="Lo mejor es no llegar con afanes así que visita antes tu sitio de presentación del examen y no te encartes con celulares o mp3s o maletas por que no los dejan entrar. Lleva solo un lápiz No 2, buen borrador, sacapuntas y tu documento de identidad."
+        android:text="Practica responder preguntas rápidamente para administrar mejor el tiempo durante el examen."
         android:textAlignment="center"
         android:textColor="@color/azul"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +26,7 @@
         android:layout_width="236dp"
         android:layout_height="71dp"
         android:autoSizeTextType="uniform"
-        android:text="Madruga y no te vayas a perder"
+        android:text="Trabaja en Tu Velocidad"
         android:textAlignment="center"
         android:textColor="@color/azul"
         android:textStyle="bold"
@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/azul"
-        android:text="s"
+        android:text="S"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/azul"
-        android:text="a"
+        android:text="A"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,6 +76,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.357"
-        app:srcCompat="@drawable/tip3" />
+        app:srcCompat="@drawable/img_50" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

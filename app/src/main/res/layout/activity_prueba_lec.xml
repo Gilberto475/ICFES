@@ -13,8 +13,8 @@
         <ImageView
             android:id="@+id/imagen_lectura"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:scaleType="centerCrop"
+            android:layout_height="400dp"
+            android:scaleType="centerInside"
             android:contentDescription="Descripción de la imagen" />
 
 
@@ -22,6 +22,7 @@
             android:id="@+id/texto_lectura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:textSize="18sp"
             android:text="Texto de ejemplo"
             android:padding="8dp" />
