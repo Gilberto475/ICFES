@@ -74,6 +74,21 @@ public class Simulacros extends AppCompatActivity {
             }
         });
 
+
+
+        ImageButton INGLESa;
+        INGLESa = findViewById(R.id.inglesss);
+
+
+        INGLESa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(Simulacros.this, PruebaIng.class);
+                startActivity(intent);
+            }
+        });
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
